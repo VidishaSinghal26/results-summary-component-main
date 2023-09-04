@@ -33,7 +33,7 @@
     font-family:"Hanken Grotesk",sans-serif
 }
 
-body{
+.body{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@ button:hover{
 }
 
 @media (max-width: 550px) {
-    body{
+    .body{
         align-items: flex-start;
     }
     .parent{
